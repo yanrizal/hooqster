@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel app.js --source-maps -d build --ignore public",
-    "start": "babel-node -- app.js",
+    "start": "babel-node -- app-promise.js",
     "lint": "./node_modules/.bin/eslint app.js"
   },
   "author": "",
